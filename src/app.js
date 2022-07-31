@@ -66,7 +66,7 @@ app.post("/login",async (req,res)=>{
 })
 
 
-app.listen(port,"127.0.0.1",()=>{
+app.listen(port,()=>{
     console.log(`running on ${port}`)
 });
 
