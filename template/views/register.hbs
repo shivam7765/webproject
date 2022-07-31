@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <style>
+        {{>style}}
+    </style>
+</head>
+<body>
+    {{>navbar}}
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form action="/register" method="post">
+            <input type="text" placeholder="enter first name" name="firstname"><br>
+            <input type="text" placeholder="enter lastname" name="lastname"><br>
+            <input type:"email" placeholder="enter eamil" name="email"><br>
+            <input type:"number" placeholder="enter phone number" name="phone"><br>
+            <input type:"number" placeholder="age" name="age"><br>
+            <input type="password" placeholder="enter your password" name="password"> <br>       
+            <input type="password" placeholder="confirm password" name="confirmpassword"><br>
+            <button type="submit" value="Register" class="button">Register</button><br>
+        </form>
+    </div>
+</body>
+</html>
